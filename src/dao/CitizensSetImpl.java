@@ -42,7 +42,7 @@ public class CitizensSetImpl implements Citizens {
         return false;
     }
 
-    //O(n)
+    //O(1)
     @Override
     public Person find(int id) {
         for (Person p : idList) {
